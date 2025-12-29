@@ -1,24 +1,18 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "d:/Projects/c_programming_a_modern_approach/chapter_2",
-      "program": "d:/Projects/c_programming_a_modern_approach/chapter_2/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
+    "version": "0.2.0",
+    "configurations": [
         {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
+            "name": "Build and Debug active C file (GCC/GDB, external console)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "cwd": "${fileDirname}",
+            "stopAtEntry": false,
+            "preLaunchTask": "C/C++: gcc.exe build active file",
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\winlibs64\\bin\\gdb.exe",
+            "externalConsole": false
         }
-      ]
-    }
-  ]
+    ]
 }
