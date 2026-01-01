@@ -1,8 +1,10 @@
 # C Programming - A Modern Approach
 
-This repo contains the code that I wrote to learn C, while reading the book by K.N King: C Programming - A Modern Approach. 
+This repo contains the code that I wrote to learn C, while reading the book by K.N King: C Programming - A Modern Approach.
 
-It is my attempt to build muscle memory while learning the foundations of C.
+I chose this book because it was more verbose and easy to follow than the K&R, and because it covered both C89 and C99. Based on my research, these are the two versions of C that are being used most in embedded systems today, so I figured these versions would be the best to learn.
+
+This repo is my attempt to build muscle memory while learning the foundations of C.
 
 ![book.jpg](/book.jpg)
 
