@@ -157,7 +157,7 @@ int main()
     //     printf("Closest departure is 12:47 p.m., arriving at 3:00 p.m.\n");
     // else if (minutes_since_midnight <= 14 * 60)
     //     printf("Closest departure is 2:00 p.m., arriving at 4:08 p.m.\n");
-    // else if (minutes_since_midnight <= 3 * 60 + 45)
+    // else if (minutes_since_midnight <= 15 * 60 + 45)
     //     printf("Closest departure is 3:45 p.m., arriving at 5:55 p.m.\n");
     // else if (minutes_since_midnight <= 19 * 60)
     //     printf("Closest departure is 7:00 p.m., arriving at 9:20 p.m.\n");
